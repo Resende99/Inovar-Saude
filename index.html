@@ -135,21 +135,8 @@
     text-decoration:none;font-weight:600;font-size:0.95rem;
   }
   .btn-secondary:hover{border-color:var(--teal-700);}
-  .hero-art{position:relative;display:flex;justify-content:center;}
-  .hero-art::before{
-    content:"";position:absolute;width:310px;height:310px;border-radius:50%;
-    border:1px solid rgba(184,145,46,.28);transform:rotate(-18deg);
-  }
+  .hero-art{position:relative;display:flex;justify-content:center;align-items:center;}
   .hero-art img{width:100%;max-width:320px;height:auto;object-fit:contain;}
-  .hero-note{
-    position:absolute;right:0;bottom:14px;max-width:190px;padding:14px 16px;
-    background:var(--card);border:1px solid var(--line);border-radius:6px;
-    box-shadow:0 12px 30px rgba(29,74,66,.12);font-size:.82rem;line-height:1.4;
-    color:var(--ink-soft);
-  }
-  .hero-note strong{display:block;color:var(--teal-900);font-family:'Fraunces',serif;font-size:1.05rem;margin-bottom:3px;}
-  :root[data-theme="dark"] .hero-note strong{color:var(--gold-soft);}
-  @media (prefers-color-scheme: dark){ .hero-note strong{color:var(--gold-soft);} }
 
   /* ---------- Trust strip ---------- */
   .trust{
@@ -257,8 +244,6 @@
     .hero .wrap{grid-template-columns:1fr;}
     .hero-art{order:-1;margin-bottom:8px;}
     .hero-art img{max-width:220px;}
-    .hero-art::before{width:190px;height:190px;}
-    .hero-note{right:calc(50% - 145px);bottom:-2px;}
     .nav > .nav-cta{display:none;}
     .about .wrap{grid-template-columns:1fr;}
     .process-grid{grid-template-columns:1fr;}
@@ -276,8 +261,6 @@
     .trust .wrap{gap:18px;}
     .trust-item{min-width:42%;}
     .hero h1{font-size:2.55rem;}
-    .hero-note{right:8px;max-width:170px;padding:11px 12px;font-size:.76rem;}
-    .hero-note strong{font-size:.95rem;}
   }
 
   /* ---------- Header scroll state ---------- */
@@ -338,13 +321,8 @@
   .hero-art img{opacity:0;transform:translateY(10px) scale(0.98);
     animation:hero-in 1.1s cubic-bezier(.2,.7,.2,1) forwards;}
   @keyframes hero-in{to{opacity:1;transform:translateY(0) scale(1);}}
-  .hero-art .glow-dot{animation:dot-glow 3.6s ease-in-out infinite;}
-  .hero-art .glow-dot:nth-child(2){animation-delay:.4s;}
-  .hero-art .glow-dot:nth-child(3){animation-delay:.8s;}
-  @keyframes dot-glow{0%,100%{opacity:.5;}50%{opacity:1;}}
   @media (prefers-reduced-motion: reduce){
     .hero-art img{animation:none;opacity:1;transform:none;}
-    .hero-art .glow-dot{animation:none;}
     .float-wa, .float-wa .ring{transition:none;}
   }
 </style>
@@ -393,7 +371,6 @@
     </div>
     <div class="hero-art">
       <img src="logo_inovar_saude_transparente.png" alt="Inovar Saúde">
-      <div class="hero-note"><strong>Cuidado que acompanha</strong>Da prevenção ao tratamento, você não precisa caminhar sozinha.</div>
     </div>
   </div>
 </section>
