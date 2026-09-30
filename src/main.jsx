@@ -301,7 +301,6 @@ function Contact() {
           Chamar no WhatsApp <ArrowUpRight size={18} />
           <span>Resposta pelo WhatsApp</span>
         </a>
-        <span className="contact__flower" aria-hidden="true">✳</span>
       </div>
     </section>
   );

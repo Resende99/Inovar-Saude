@@ -139,7 +139,6 @@ img { display: block; max-width: 100%; }
 .contact__copy > p:last-child { margin-top: 16px; }
 .button--contact { position: relative; z-index: 1; min-width: 232px; min-height: 58px; justify-content: space-between; color: var(--forest-deep); background: #eee4d2; }
 .button--contact span { position: absolute; top: calc(100% + 11px); left: 0; width: 100%; color: #d3ded5; font-size: 10px; font-weight: 400; text-align: center; }
-.contact__flower { position: absolute; right: 20%; bottom: -110px; color: rgba(255, 255, 255, .06); font-size: 300px; line-height: 1; pointer-events: none; }
 
 .footer { background: var(--paper); }
 .footer__main { min-height: 220px; display: grid; grid-template-columns: 1.4fr 1fr 1fr; align-items: start; gap: 50px; padding-top: 53px; padding-bottom: 46px; }
@@ -263,7 +262,6 @@ img { display: block; max-width: 100%; }
   .contact__inner { align-items: flex-start; flex-direction: column; gap: 25px; }
   .contact h2 { font-size: 56px; }
   .button--contact { min-width: 222px; }
-  .contact__flower { right: -15%; bottom: -114px; font-size: 235px; }
   .footer__main { min-height: auto; grid-template-columns: 1fr 1fr; gap: 34px 20px; padding-top: 39px; padding-bottom: 36px; }
   .footer__brand { grid-column: 1 / -1; }
   .footer__bottom { min-height: 76px; justify-content: space-between; flex-wrap: wrap; padding-top: 12px; padding-bottom: 12px; font-size: 8px; }
