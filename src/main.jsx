@@ -241,7 +241,7 @@ function About() {
           <div className="about__art">
             <div className="about__art-meta"><span>NOSSO JEITO DE CUIDAR</span><Heart size={17} /></div>
             <div className="about__art-message"><span>OLHAR HUMANO</span><p>Presença em<br />cada etapa<span>.</span></p></div>
-            <img className="about__doctor" src="/doctor-inovar.jpg" alt="Médica sorrindo em um ambiente externo" loading="lazy" />
+            <img className="about__doctor" src="/doctor-hands.jpg" alt="Mãos de um médico com jaleco e estetoscópio" loading="lazy" />
             <div className="about__art-foot"><span>Escuta</span><i /><span>Respeito</span><i /><span>Sigilo</span></div>
           </div>
         </div>
