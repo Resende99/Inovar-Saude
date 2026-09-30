@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import {
   ArrowDown,
+  ArrowRight,
   ArrowUpRight,
   Check,
   Dna,
+  Flower2,
   Heart,
   Menu,
   Microscope,
